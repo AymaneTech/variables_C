@@ -16,11 +16,12 @@ int main() {
     printf("Enter your phone number: ");
     scanf("%lld", &phone_num);
 
+    printf("\t\t\tyour info are here \n");
     printf("Name: %s\n", name);
     printf("Last name: %s\n", last_name);
     printf("Gender: %c\n", sexe);
     printf("Age: %d\n", age);
-    printf("Phone number: %lld\n", phone_num);
+    printf("Phone number: %d\n", phone_num);
 
     return 0;
 }
