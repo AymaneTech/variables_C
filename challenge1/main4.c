@@ -1,24 +1,24 @@
 #include <stdio.h>
-/*challenge 3*/
+/*challenge 4*/
 
 int main(){
-  int a,b,c,d,add,som;
-  printf("Entrez deux nomber entier pour le calculer:\n");
+  float a,b,c,d,add,som;
+  printf("Entrez des nombers entier pour le calculer:\n");
   printf("saisies le premier nomber:");
-  scanf("%d",&a);
+  scanf("%.2f",&a);
   printf("saisies le second nomber:");
-  scanf("%d",&b);
+  scanf("%.2f",&b);
   printf("saisies le troisieme nomber:");
-  scanf("%d",&c);
+  scanf("%.2f",&c);
   printf("saisies le quatrieme nomber:");
-  scanf("%d",&d);
+  scanf("%.2f",&d);
 
   add = a+b+c+d;
   som = add/4;
 
 
-  printf("La somme des nombres est:%d\n",add);
-  printf("La moyenne des nombres est:%d\n",som);
+  printf("La somme des nombres est:%.2f\n",add);
+  printf("La moyenne des nombres est:%.2f\n",som);
 
   return 0;
 }
