@@ -12,10 +12,9 @@ int main(){
   x2=n1%8;
   x3=n2%8;
   printf("%d%d%d",x3,x2,x1);
-    return 0;
-}
+
 //hexadecimal
-int main(){
+
   int nbr,n=1,n1,x1,n2,x2,n3,x3;
   printf("enter un decimal: ");
   scanf("%d",&nbr);
